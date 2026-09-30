@@ -3,8 +3,8 @@ import 'package:http/http.dart' as http;
 import 'storage_service.dart';
 
 class ApiService {
-static const String baseUrl = "http://192.168.0.104:5000/api";
-  // REGISTER API
+  static const String baseUrl =
+      "https://women-safe.onrender.com/api"; // REGISTER API
   static Future<Map<String, dynamic>> register(
     String name,
     String email,
